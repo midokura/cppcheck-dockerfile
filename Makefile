@@ -1,4 +1,4 @@
-DOCKER_REPO ?= yamt
+DOCKER_REPO ?= midokura
 DOCKER_IMAGE ?= cppcheck-static-2.1
 DOCKER_TAG ?= latest
 DOCKER_NAME ?= $(DOCKER_REPO)/$(DOCKER_IMAGE):$(DOCKER_TAG)
